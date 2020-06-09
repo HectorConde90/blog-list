@@ -11,7 +11,7 @@ const create = async (req, res) => {
 
     } catch (error) {
 
-
+        throw error;
     }
 }
 
